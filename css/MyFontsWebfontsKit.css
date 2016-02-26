@@ -1,0 +1,42 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3175843, 2016-02-23T12:43:17-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed ../font(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: UniversLTPro-55Roman by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/univers/pro-55-roman/
+ * Licensed pageviews: 250,000
+ * 
+ * Webfont: UniversLTPro-65Bold by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/univers/pro-65-bold/
+ * Licensed pageviews: 500,000
+ * 
+ * Webfont: UniversLTPro-45Light by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/univers/pro-45-light/
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3175843
+ * ../font copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted &#x00A9; 2007 Linotype GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype GmbH, and may not be reproduced, 
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3075a3");
+
+  
+@font-face {font-family: 'UniversLTPro-55Roman';src: url('../font/3075A3_0_0.eot');src: url('../font/3075A3_0_0.eot?#iefix') format('embedded-opentype'),url('../font/3075A3_0_0.woff2') format('woff2'),url('../font/3075A3_0_0.woff') format('woff'),url('../font/3075A3_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'UniversLTPro-65Bold';src: url('../font/3075A3_1_0.eot');src: url('../font/3075A3_1_0.eot?#iefix') format('embedded-opentype'),url('../font/3075A3_1_0.woff2') format('woff2'),url('../font/3075A3_1_0.woff') format('woff'),url('../font/3075A3_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'UniversLTPro-45Light';src: url('../font/3075A3_2_0.eot');src: url('../font/3075A3_2_0.eot?#iefix') format('embedded-opentype'),url('../font/3075A3_2_0.woff2') format('woff2'),url('../font/3075A3_2_0.woff') format('woff'),url('../font/3075A3_2_0.ttf') format('truetype');}
+ 
