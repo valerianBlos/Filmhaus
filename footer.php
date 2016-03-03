@@ -15,8 +15,8 @@
 					Telefon 0331 / 28 12 94 40<br/>
 					info@filmhausbabelsberg.de<br/>
 					<br/>
-					<a href="#" class="colorWhite">Anfrage</a><br/>
-					<a href="#" class="colorWhite">Impressum</a><br/>
+					<a href="kontakt.php" class="colorWhite">Anfrage</a><br/>
+					<a href="impressum.php" class="colorWhite">Impressum</a><br/>
 				</div>
 				
 				<div id="footerPartner">

@@ -34,6 +34,31 @@ h3
     font-style: normal;  
 }
 
+h4
+{
+	font-size: 14px;    
+	font-family: 'UniversLTPro-65Bold', Helvetica, Arial; 
+    font-weight: normal; 
+    font-style: normal;	
+	text-transform: uppercase; 
+}
+
+h5
+{
+	font-size: 12px;    
+	font-family: 'UniversLTPro-65Bold', Helvetica, Arial; 
+    font-style: normal;  
+    font-style: normal;
+}
+
+h6
+{
+	font-size: 24px;
+    font-family: 'UniversLTPro-45Light', Helvetica, Arial;
+    font-weight: normal; 
+    font-style: normal; 
+}
+
 .colorRed
 {
 	color: #E1061B;
@@ -42,6 +67,13 @@ h3
 .colorWhite
 {
 	color: white;
+}
+
+.mediumSize
+{
+	font-family: 'UniversLTPro-55Roman', Helvetica, Arial;
+ 	font-weight: normal;
+	font-style: normal;
 }
 
 a
@@ -53,6 +85,125 @@ a
 a.hoover
 {
 	text-decoration: underline;
+}
+
+.linkToSingle
+{
+	color:inherit;
+}
+
+#noPadding
+{
+	padding-bottom: 0px;
+}
+
+.notMobile
+{
+	display: none;
+}
+
+.onlydesktop
+{
+	display: none;
+}
+
+@media only screen and (min-width: 750px) {
+
+	.onlyMobile
+	{
+		display: none;
+	}
+
+	.notMobile
+	{
+		display: inherit;
+	}
+
+	.teaserText
+	{
+		font-size: 24px;
+	}
+
+	h1
+	{
+		font-size: 22px;
+	}
+
+	h2
+	{
+		font-size: 31px;
+	}
+
+	h3
+	{
+		font-size: 21px;     
+	}
+
+	h4 /*Überschrift für Link zu subkategorie (BEITRÄGE, LEHRGÄNGE)*/
+	{
+		font-size: 16px;    
+	}
+
+	h5
+	{
+		font-size: 14px;    
+	}
+
+	h6
+	{
+		font-size: 31px;
+	}
+}
+
+
+@media only screen and (min-width: 1100px) {
+
+	.onlydesktop
+	{
+		visibility: visible;
+		display: inherit;
+	}
+
+	.notMobile
+	{
+		display: inherit;
+	}
+
+	.notDesktop
+	{
+		display: none;
+	}
+
+	h1
+	{
+		font-size: 36px;
+	}
+
+	h2
+	{
+		font-size: 36px;
+	}
+
+	h3
+	{
+		font-size: 24px;    
+		line-height: 26px; 
+	}
+
+	h4 /*Überschrift für Link zu subkategorie (BEITRÄGE, LEHRGÄNGE)*/
+	{
+		font-size: 16px;    
+	}
+
+	h5
+	{
+		font-size: 16px;    
+	}
+
+	h6
+	{
+		font-size: 36px;
+	}
 }
 
 
@@ -71,19 +222,21 @@ a.hoover
 #contentWrapper
 {
 	padding: 0px 15px 0px 15px;
-	margin-top: 70px;
+
 }
 
 #header
 {
-	height: 125px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 #headerLogo
 {
-	background: url('../images/babelsberglogo-320x568.jpg') no-repeat;
-	height: 126px;
-	width: 125px;
+    background: url('../images/babelsberg_logo.png') no-repeat center;
+    height: 36px;
+    width: 161px;
 	left: 15px;
 	position: absolute;
 	z-index: 2;
@@ -94,8 +247,7 @@ a.hoover
 	color: white;
 	height: 36px;
 	background-color: #E1061B;
-	text-align: right;
-	
+	text-align: right;	
 }
 
 .burgerMenu
@@ -120,6 +272,11 @@ a.hoover
     margin-top: 3px;
 }
 
+#teaserBox
+{
+	margin-bottom: 50px;
+}
+
 #textBox
 {
 	padding: 20px 15px 0px 15px;
@@ -141,22 +298,33 @@ a.hoover
 	font-family: 'UniversLTPro-55Roman', Helvetica, Arial;
  	font-weight: normal;
 	font-style: normal;
-	padding-top: 32px;
+	padding-top: 25px;
 	text-transform: uppercase;
+}
+
+#contactField h2
+{
+	margin-bottom: 10px;
 }
 
 #contactField span
 {
-	font-size: 18px;
+	font-size: 12px;
 	font-family: 'UniversLTPro-45Light', Helvetica, Arial;
  	font-weight: normal;
 	font-style: normal;	
-	line-height: 40px;
+	line-height: 30px;
+}
+
+#headerAdresse .contactIcons ul li
+{
+	margin-left: 0px;
+	margin-right: 12px;
 }
 
 .contactIcons
 {
-	
+	margin-top: 20px;	
 }
 
 .contactIcons ul
@@ -169,6 +337,70 @@ a.hoover
 		display: inline;
 		margin-left: 6px;
 		margin-right: 6px;
+}
+
+#headerBox
+{
+	margin-bottom: 25px;
+    min-height: 45px;
+}
+
+#headerImage img
+{
+	width: 100%;
+    height: auto;
+}
+
+#headlineSingleCourse
+{
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#headerHeadline
+{
+	width: 100%;
+}
+
+#headerTextBox
+{
+	padding: 0px 15px 0px 15px;
+	/*display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;*/
+}
+
+#headerTextBox div
+{
+	margin-top: 20px;
+    /*margin-left: 5px;
+    margin-right: 5px;*/
+}
+
+#headerKontakt, #headerLehrgaenge, #headerHeadline
+{
+	display: none;
+}
+
+#headlineSingleArticle
+{
+	    line-height: 29px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.mainContentTeaser
+{
+    font-size: 16px;
+    margin-top: 25px;
+    padding-bottom: 30px;
+    line-height: 22px;
+}
+
+#mainContent p
+{
+	margin-bottom: 20px;
 }
 
 .newsArticle
@@ -238,9 +470,87 @@ a.hoover
     height: auto;
 }
 
+#teacherImage
+{
+	margin-bottom: 25px;
+	font-size: 16px;
+}
 
+#teacherImage img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+}
 
+#teacherText p
+{
+	margin-top: 15px;
+}
 
+#contactFormular
+{
+	margin-top: 40px;
+	margin-bottom: 50px;
+
+}
+
+#contactFormular form
+{
+	margin-top: 15px;
+}
+
+#contactFormular form span
+{
+	font-family: 'UniversLTPro-65Bold', Helvetica, Arial; 
+    font-style: normal;  
+    font-style: normal;	
+}
+
+#contactFormular form span em
+{
+    font-family: 'UniversLTPro-45Light', Helvetica, Arial;
+    font-weight: normal; 
+    font-style: italic; 
+}
+
+#contactFormular input
+{
+	border: 1px solid #1D1D1B;
+	margin-top: 10px;
+}
+
+.buttonBeratungForm
+{
+	background-color: white;
+    padding: 5px 15px;
+	font-family: 'UniversLTPro-65Bold', Helvetica, Arial; 
+    font-style: normal;  
+    font-style: normal;	
+}
+
+.inputBeratung
+{
+    height: 25px;
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.inputBeratungLarge
+{
+	height: 110px;
+	border: 1px solid #1D1D1B;
+	margin-top: 10px;
+	text-align: left;	
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
 
 
 
@@ -324,6 +634,298 @@ a.hoover
     font-weight: normal; 
     font-style: normal; 
 }
+
+
+
+
+
+@media only screen and (min-width: 750px) {
+
+	#headerLogo
+	{
+	    background: url('../images/babelsberglogo-320x568.jpg') no-repeat center;
+	    height: 125px;
+	    width: 126px;
+		left: 25px;
+	}
+
+	#headerImage
+	{
+	    height: 440px;
+    	overflow: hidden;	
+	}
+
+	#headerBox
+	{
+    	min-height: 120px;		
+	}
+
+	.headlineImagebox
+	{
+    top: 355px;
+	}
+
+	.headlineImagebox span
+	{
+		font-size: 21px;
+		line-height: 32px;		
+	}
+
+	.slick-slider
+	{
+		height: 440px;
+    	overflow: hidden;
+	}
+
+	#mainTeaser
+	{
+		font-size: 24px;
+   		line-height: 30px;
+	}
+
+	#contactField span {
+	    font-size: 18px;
+	    line-height: 40px;
+	}
+
+	.contactIcons {
+	    margin-top: 10px;
+	}
+
+	#contentWrapper
+	{
+		padding: 0px 25px 0px 25px;
+	}
+
+	#textBox {
+    	padding: 20px 25px 0px 25px;
+	}
+
+	#navigation 
+	{
+    	height: 47px;
+    	text-align: left;
+	}
+
+	.theMenuBig
+	{
+	    margin-left: 190px;
+	    padding-top: 16px;		
+	}
+
+	.theMenuBig ul li
+	{
+		display: inline;
+		margin-right: 25px;
+	}
+
+	.flexWrap
+	{
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;			
+	}
+
+	.flexWrap a
+	{
+		width: 48%;
+	}
+
+	#facebookInclude {
+	    width: 50%;
+	    float: left;
+	}
+
+	#mainContent
+	{
+
+	}
+
+	.startSeite
+	{
+		float: left;
+		width: 50%		
+	}
+
+	#headlineSingleCourse {
+		padding-top: 30px;
+	    padding-left: 25px;
+	    padding-right: 25px;
+	}
+
+	#headerTextBox
+	{
+		padding: 0px 25px 0px 25px;	
+	}
+
+	#headerTextBox div {
+	    margin-left: 0px;
+	    margin-right: 0px;
+	}
+
+	#footer {
+    	padding: 0px 25px 45px 25px;
+    	margin-top: 30px;
+	}
+
+
+	#footerKontakt
+	{
+		width: 33%;
+	}
+
+	#footerPartner
+	{
+		width: 33%;
+	}
+
+	#footerNewsletter 
+	{
+		width: 33%;
+	}
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+	#header {
+	    position: absolute;
+	}
+
+	#headerLogo {
+	    background: url('../images/babelsberg_logo_big.png') no-repeat center;
+	    height: 274px;
+	    width: 331px;
+	    left: 60px;
+	}
+
+	.headlineImagebox {
+	    top: 600px;
+	}
+
+	.headlineImagebox span 
+	{
+	    font-size: 36px;
+	    line-height: 61px;
+	}
+	
+	#navigation
+	{
+	    height: 80px;
+	}
+
+	.theMenuBig
+	{
+    	padding-top: 33px;	
+    	margin-left: 445px;	
+	}
+
+	.theMenuBig ul li {
+	    margin-right: 60px;
+	    font-size: 21px;
+	}
+
+	.slick-slider {
+	    height: 730px;
+	    overflow: hidden;
+	}
+
+	#textBox
+	{
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;	
+	    padding: 40px 60px 0px 60px;		
+	}
+
+	#contactField {
+	    text-align: left;
+	    padding-top: 0px;
+	    width: 25%;
+	    order: 1;
+	}
+
+	#mainTeaser
+	{
+		width: 70%;
+		order: 2;
+	}
+
+	#facebookInclude {
+	    width: 33%;
+	    float: left;
+	}
+
+	#mainContent
+	{
+
+	}
+
+	#mainContent a {
+	    
+	}
+
+	.startSeite
+	{
+		float: left;
+		width: 66%;
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;		
+	}
+
+	.startSeite a
+	{
+		width: 49%;
+	}
+
+	#headerTextBox {
+	    padding: 0px 60px 0px 60px;
+	}
+
+	#headlineSingleCourse {
+	    padding-top: 12px;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    padding-bottom: 50px;
+	}
+
+	#contactField h2 {
+	    margin-bottom: 50px;
+	}
+
+	#kursAngebotSubmenu
+	{
+		padding: 0px 60px 80px 60px;	
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;		
+	}
+
+	#kursAngebotSubmenu .newsImage 
+	{
+    	height: initial;
+	}
+
+	#contentWrapper {
+	    padding: 0px 60px 0px 60px;
+	}
+
+	.flexWrap a {
+	    width: 32%;
+	}
+	
+	#kursAngebotSubmenu a {
+	    width: 32%;
+	}
+
+	#footer 
+	{
+	    padding: 0px 60px 45px 60px;
+	    margin-top: 60px;
+	}
+}
+
 
 
 

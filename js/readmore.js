@@ -33,7 +33,7 @@
         moreLink: '<a href="#">Read More</a>',
         lessLink: '<a href="#">Close</a>',
         embedCSS: true,
-        blockCSS: 'display: block; width: 100%;',
+        blockCSS: 'display: block; ',
         startOpen: false,
 
         // callbacks

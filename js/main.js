@@ -17,12 +17,20 @@ $( document ).ready(function() {
 		$( ".theMenuMobile" ).slideToggle( "slow" );
 	});
 
-	$('#mainTeaser').readmore({
+	/*$('#mainTeaser').readmore({
 	  speed: 75,
 	  lessLink: '<span><a href="#">weniger...</a></span>',
 	  moreLink: '<span><a href="#">mehr...</a></span>',
 	  collapsedHeight: 92,
 	  heightMargin: 10
-	});
+	});*/
+
+	/*$('.singleCourseContainer p').readmore({
+	  speed: 75,
+	  lessLink: '<span><a href="#">weniger...</a></span>',
+	  moreLink: '<span><a href="#">mehr...</a></span>',
+	  collapsedHeight: 92,
+	  heightMargin: 0
+	});*/
 
 });
