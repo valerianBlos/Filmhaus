@@ -5,7 +5,7 @@
 	    		<img src="images/header_lehrgaenge_image.jpg">
 			</div>
 
-			<div id="headerTextBox" class="notMobile">
+			<div id="headerTextBox" class="notMobile headerHeadlineArticlesingle">
 				<div id="headerHeadlineArticle"><h4><a href="lehrgaenge.php">LEHRGÄNGE</a></h4></div>
 			</div>
 			<div id="headlineSingleCourse" class="onlyMobile"><h2>FICTION-PRODUCER/IN</h2></div>
@@ -40,11 +40,12 @@
 					<span><a href="">Kamera</a><br/></span>
 				</div>
 			</div>
-			<div id="headlineSingleCourse" class="notMobile"><h2>FICTION-PRODUCER/IN</h2></div>
+			<div id="headlineSingleCourse" class="notMobile notDesktop"><h2>FICTION-PRODUCER/IN</h2></div>
 	</div>
 
 	<div id="contentWrapper">
 		<div id="mainContent" class="singleCourseContainer">
+			<div id="headlineSingleCourse" class="onlydesktop"><h2>FICTION-PRODUCER/IN</h2></div>
 			<p class="mainContentTeaser">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 			</p>
@@ -76,10 +77,12 @@
 					</form>
 			</div>
 		</div>
+		<div class="clear"></div>
 		<div id="singleItemTeacher">
 			<div id="teacherImage">
 				DOZENTEN<br/>
-				<img src="images/teacherImage.jpg"></div>
+				<img src="images/teacherImage.jpg">
+			</div>
 			<div id="teacherText">
 				<h6>Stansilaw Mucha</h6>
 				<p>
@@ -87,6 +90,7 @@
 				</p>
 			</div>
 		</div>
-	<div class="clear"></div>
+		<div class="clear"></div>
+	
 	</div>
 <?php include ('footer.php');?>

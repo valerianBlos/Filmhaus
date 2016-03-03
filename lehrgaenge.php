@@ -41,7 +41,7 @@
 	</div>
 
 	<div id="contentWrapper">
-		<div id="mainContent" class="flexWrap">
+		<div id="mainContent" class="flexWrap flexWrapDesktop">
 
 			<a href="singleCourse.php" class="linkToSingle">
 				<div class="newsArticle">

@@ -5,7 +5,7 @@
 	</div>
 
 	<div id="contentWrapper">
-		<div id="mainContent">
+		<div id="mainContent" class="singleCourseContainer onlyText">
 			<div id="headlineSingleArticle"><h2>IMPRESSUM</h2><br/></div>
 			<p>
 				<h5>Filmhaus Babelsberg</h5><br/>

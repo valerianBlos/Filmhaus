@@ -12,7 +12,7 @@
 	</div>
 
 	<div id="contentWrapper">
-		<div id="mainContent">
+		<div id="mainContent" class="singleCourseContainer">
 			<div id="headlineSingleArticle"><h2>SEMINAR DEUTSCHLAND 83</h2><span>Deutschland 83 - Was macht die Serie so erfolgreich?</span></div>
 			<p class="mainContentTeaser" id="noPadding">
 				Am 5. und 6. Dezember 2015 mit Oliver Schütte

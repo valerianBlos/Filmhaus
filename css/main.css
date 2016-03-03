@@ -47,7 +47,7 @@ h5
 {
 	font-size: 12px;    
 	font-family: 'UniversLTPro-65Bold', Helvetica, Arial; 
-    font-style: normal;  
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -830,6 +830,11 @@ a.hoover
 	    overflow: hidden;
 	}
 
+	#headerImage {
+	    height: 640px;
+	    overflow: hidden;
+	}
+
 	#textBox
 	{
 	    display: flex;
@@ -856,13 +861,34 @@ a.hoover
 	    float: left;
 	}
 
+	.flexWrap
+	{
+	    display: block;
+	    float: left;	
+	}
+
+	.flexWrapDesktop
+	{
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;	
+	}
+
 	#mainContent
 	{
 
 	}
 
-	#mainContent a {
-	    
+	.singleCourseContainer
+	{
+	    float: right;
+	    width: 67%;
+	    margin-top: -50px;		
+	}
+
+	.headerHeadlineArticlesingle
+	{
+		margin-top: 40px;
 	}
 
 	.startSeite
@@ -887,11 +913,33 @@ a.hoover
 	    padding-top: 12px;
 	    padding-left: 0px;
 	    padding-right: 0px;
-	    padding-bottom: 50px;
+	    padding-bottom: 20px;
 	}
 
 	#contactField h2 {
 	    margin-bottom: 50px;
+	}
+
+	#teacherText
+	{
+		float: right;
+    	width: 67%;
+	}
+
+	#teacherText p 
+	{
+	    margin-top: 30px;
+	}
+
+	#teacherImage {
+	    float: left;
+	    margin-bottom: 0px;
+	    width: 29%;
+	}
+
+	#teacherImage img
+	{
+		margin-top: 32px;
 	}
 
 	#kursAngebotSubmenu
@@ -914,15 +962,47 @@ a.hoover
 	.flexWrap a {
 	    width: 32%;
 	}
+
+	.floatLeftDesktop
+	{
+		float: left;
+		margin-top: 25px;
+	}
+
+	.floatRightDesktop
+	{
+		margin-top: 20px;
+	}
 	
+	.onlyText
+	{
+		margin-top: 170px;
+	}
+
 	#kursAngebotSubmenu a {
 	    width: 32%;
+	}
+
+	#headerKontakt
+	{
+		display: block;
+	}
+
+	#headerLehrgaenge
+	{
+		display: block;
 	}
 
 	#footer 
 	{
 	    padding: 0px 60px 45px 60px;
 	    margin-top: 60px;
+	}
+
+	.contactIcons li {
+	    display: inline;
+	    margin-left: 0px;
+	    margin-right: 12px;
 	}
 }
 

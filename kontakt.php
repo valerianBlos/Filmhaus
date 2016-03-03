@@ -5,9 +5,9 @@
 	    		<img src="images/header_lehrgaenge_image.jpg">
 			</div>
 
-			<div id="headlineSingleCourse"><h2>KONTAKT</h2></div>
+			<div id="headlineSingleCourse" class="notDesktop"><h2>KONTAKT</h2></div>
 
-			<div id="headerTextBox">
+			<div id="headerTextBox" class="floatLeftDesktop">
 				<div id="headerPersonen">
 					<h5>Studienleitung</h5>
 					Andreas Westphal<br/>
@@ -37,7 +37,8 @@
 	</div>
 
 	<div id="contentWrapper">
-		<div id="mainContent" class="singleCourseContainer">
+		<div id="mainContent" class="singleCourseContainer floatRightDesktop">
+			<div id="headlineSingleCourse" class="onlydesktop"><h2>KONTAKT</h2></div>
 			<div id="contactFormular">
 				<h3 class="colorRed mediumSize">KONTAKTANFRAGE</h3>
 					<form action="">
