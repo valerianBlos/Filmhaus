@@ -857,7 +857,9 @@ a.hoover
 	}
 
 	#facebookInclude {
-	    width: 33%;
+	    width: 32%;
+	    padding-left: 20px;
+	    margin-top: 30px;
 	    float: left;
 	}
 
@@ -872,6 +874,11 @@ a.hoover
 		display: flex;
 	    flex-wrap: wrap;
 	    justify-content: space-between;	
+	}
+
+	.generalDistanceDesktop
+	{
+		margin-top: 45px;
 	}
 
 	#mainContent

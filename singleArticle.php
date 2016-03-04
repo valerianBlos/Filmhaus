@@ -6,7 +6,7 @@
 			</div>
 
 
-			<div id="headerTextBox">
+			<div id="headerTextBox" class="generalDistanceDesktop">
 				<div id="headerHeadlineArticle"><h4><a href="lehrgaenge.php">AKTUELLES</a></h4></div>
 			</div>
 	</div>

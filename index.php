@@ -118,7 +118,7 @@
 			</a>
 		</div>
 		<div id="facebookInclude">
-			<div class="fb-page" data-href="https://www.facebook.com/filmhausbabelsberg" data-tabs="timeline" data-width="290" data-height="285" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/filmhausbabelsberg"><a href="https://www.facebook.com/filmhausbabelsberg">Filmhaus Babelsberg</a></blockquote></div></div>
+			<div class="fb-page" data-href="https://www.facebook.com/filmhausbabelsberg" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/filmhausbabelsberg"><a href="https://www.facebook.com/filmhausbabelsberg">Filmhaus Babelsberg</a></blockquote></div></div>
 		</div>
 		<div class="clear"></div>
 		<div id="linkToArchive"><a href="articleCollection.php">ARCHIV</a></div>
