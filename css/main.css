@@ -107,6 +107,13 @@ a.hoover
 	display: none;
 }
 
+.footerToBottom
+{
+	    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 @media only screen and (min-width: 650px) {
 
 	.onlyMobile
@@ -209,6 +216,7 @@ a.hoover
 
 
 
+
 /*************
 	THE CSS
 ************/
@@ -234,12 +242,13 @@ a.hoover
 
 #headerLogo
 {
-    background: url('../images/babelsberg_logo.png') no-repeat center;
+    background: url('../images/babelsberg_logo@2x.png') no-repeat center;
     height: 36px;
     width: 161px;
 	left: 15px;
 	position: absolute;
 	z-index: 2;
+	background-size: contain;
 }
 
 #navigation
@@ -590,6 +599,13 @@ a.hoover
 	padding-top: 40px;
 	width: 290px;
 }
+
+a[href^=tel]{
+    color:inherit;
+    text-decoration: inherit;
+    font-size:inherit;
+    font-style:inherit;
+    font-weight:inherit;}
 
 #footerKontakt .contactIcons
 {

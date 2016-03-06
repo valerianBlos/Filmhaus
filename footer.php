@@ -12,7 +12,7 @@
 					Filmhaus Babelsberg gGmbH<br/>
 					Großbeerenstraße 189<br/> 
 					14482 Potsdam<br/>
-					Telefon 0331 / 28 12 94 40<br/>
+					Telefon <a href="tel:033128129440">0331 / 28 12 94 40</a><br/>
 					info@filmhausbabelsberg.de<br/>
 					<br/>
 					<a href="kontakt.php" class="colorWhite">Anfrage</a><br/>
@@ -44,6 +44,7 @@
 		<script src="js/jquery-1.12.1.min.js" ></script>
 		<script type="text/javascript" src="slick/slick.min.js"></script>
 		<script src="js/jquery.expander.js"></script>
+		<script src="js/retina.min.js"></script>
 		<script src="js/main.js"></script>
 
 	</body>

@@ -21,6 +21,12 @@
     float: left; 
 }
 
+input, textarea
+{
+  -webkit-appearance: none;
+       border-radius: 0;
+}
+
 .UniversLTPro-55Roman { 
   font-family: UniversLTPro-55Roman;
   font-weight: normal;

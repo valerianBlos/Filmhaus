@@ -49,7 +49,7 @@ GENERAL CONTROLL AND OPTION VARIABLES
             tabletSize = false;
             desktopSize = true;
           }
-          console.log(mobileSize + " " + tabletSize + " " + desktopSize );
+          //console.log(mobileSize + " " + tabletSize + " " + desktopSize );
         }
 
 
@@ -59,6 +59,20 @@ GENERAL CONTROLL AND OPTION VARIABLES
         	{
         		$(".fb-page").data("width", "100px");
         	}
+        }
+
+
+        function checkFooterPosition () 
+        {
+        	var $el = $('#footer');
+        	var heightOfViewport = $( window ).height();
+        	var bottom =  $el.position().top + $el.outerHeight(true);
+
+        	if (bottom <= heightOfViewport)
+        	{
+        		$("#footer").addClass("footerToBottom");
+        	}
+
         }
 
 
@@ -90,23 +104,7 @@ $( document ).ready(function() {
 	$('div.expander').expander();
 	$('p.expander').expander();
 
-	/*$('#mainTeaser').readmore({
-	  speed: 75,
-	  lessLink: '<span><a href="#">weniger...</a></span>',
-	  moreLink: '<span><a href="#">mehr...</a></span>',
-	  collapsedHeight: 92,
-	  heightMargin: 10
-	});*/
-
-	/*$('.singleCourseContainer p').readmore({
-	  speed: 75,
-	  lessLink: '<span><a href="#">weniger...</a></span>',
-	  moreLink: '<span><a href="#">mehr...</a></span>',
-	  collapsedHeight: 92,
-	  heightMargin: 0
-	});*/
-
-	console.log($(".fb-page").data("width"));
+	checkFooterPosition();
 
 	checkWindowSize();
 
@@ -117,6 +115,7 @@ $( document ).ready(function() {
     {
     	checkWindowSize();
 		alignFacebookFrameSize();
+		checkFooterPosition();
     });
 
 });

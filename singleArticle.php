@@ -7,7 +7,7 @@
 
 
 			<div id="headerTextBox" class="generalDistanceDesktop">
-				<div id="headerHeadlineArticle"><h4><a href="lehrgaenge.php">AKTUELLES</a></h4></div>
+				<div id="headerHeadlineArticle"><h4><a href="articleCollection.php">AKTUELLES</a></h4></div>
 			</div>
 	</div>
 
