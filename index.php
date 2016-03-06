@@ -34,8 +34,8 @@
 	    	</div>
 	  	</div>
 		<div id="textBox">
-			<div id="mainTeaser">
-				Das Filmhaus Babelsberg bietet unter dem Motto „Von der Branche für die Branche“ berufliche Weiterbildung in der Film- und Medienindustrie an. In dem Verbund mit dem Filmhaus Köln und der Filmwerkstatt München steht das Filmhaus in der Tradition. Gemeinsam mit unseren Partnern in Köln und München haben wir siebzehn Lehrgänge zur Weiterbildung Filmschaffender entwickelt und zertifiziert, 			
+			<div id="mainTeaser" class="expander">
+				Das Filmhaus Babelsberg bietet unter dem Motto „Von der Branche für die Branche“ berufliche Weiterbildung in der Film- und Medienindustrie an. In dem Verbund mit dem Filmhaus Köln und der Filmwerkstatt München steht das Filmhaus in der Tradition. Gemeinsam mit unseren Partnern in Köln und München haben wir siebzehn Lehrgänge zur Weiterbildung Filmschaffender entwickelt und zertifiziert. 			
 			</div>
 			<div id="contactField">
 				Kontakt<br>

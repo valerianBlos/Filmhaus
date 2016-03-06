@@ -75,6 +75,7 @@ $( document ).ready(function() {
 	  speed: 500,
 	  fade: true,
 	  autoplay: true,
+	  arrows: false,
 	  autoplaySpeed: 4000,
 	  cssEase: 'linear'
 	});
@@ -85,6 +86,9 @@ $( document ).ready(function() {
 	{
 		$( ".theMenuMobile" ).slideToggle( "slow" );
 	});
+
+	$('div.expander').expander();
+	$('p.expander').expander();
 
 	/*$('#mainTeaser').readmore({
 	  speed: 75,

@@ -33,7 +33,7 @@
 					<h3 class="colorWhite">NEWSLETTER</h3>
 
 					<form action="">
-						<input type="text" value="e-mail" name="email" class="inputNewsletter"><br>
+						<input type="text" value="e-mail" name="email" class="inputNewsletter"><br/>
 						<input type="submit" value="abonnieren" class="buttonNewsletter">
 					</form>
 					Der Newsletter informiert über aktuelle Angebote des Filmhaus Babelsberg. Ihre E-Mail-Adresse wird entsprechend des Datenschutzes nicht an Dritte weitergeleitet.
@@ -43,7 +43,7 @@
 		</div>
 		<script src="js/jquery-1.12.1.min.js" ></script>
 		<script type="text/javascript" src="slick/slick.min.js"></script>
-		<script src="js/readmore.js"></script>
+		<script src="js/jquery.expander.js"></script>
 		<script src="js/main.js"></script>
 
 	</body>

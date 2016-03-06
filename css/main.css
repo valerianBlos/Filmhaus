@@ -107,7 +107,7 @@ a.hoover
 	display: none;
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 650px) {
 
 	.onlyMobile
 	{
@@ -284,12 +284,23 @@ a.hoover
 
 #mainTeaser span
 {
+	/*color: #E1061B;
+	font-size: 12px;	
+	font-family: 'UniversLTPro-55Roman', Helvetica, Arial;
+ 	font-weight: normal;
+	font-style: normal;*/
+}
+
+.read-more, .read-less
+{
 	color: #E1061B;
 	font-size: 12px;	
 	font-family: 'UniversLTPro-55Roman', Helvetica, Arial;
  	font-weight: normal;
-	font-style: normal;
+	font-style: normal;*	
 }
+
+
 
 #contactField
 {
@@ -561,10 +572,17 @@ a.hoover
 	padding: 0px 15px 45px 15px;
 	color: white;
 	background-color: #E1061B;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    justify-content: space-between;	
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+    justify-content: space-between;
+
     margin-top: 60px;	
+
 }
 
 #footerKontakt
@@ -592,9 +610,12 @@ a.hoover
 
 #footerPartner div
 {
-	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 19px;
 }
 
 #footerPartner div img
@@ -617,7 +638,7 @@ a.hoover
 .inputNewsletter
 {
 	height: 25px;
-    width: 220px;
+    width: 170px;
     padding-left: 10px;
     margin-bottom: 20px;
     color: #a3a3a3;
@@ -639,7 +660,7 @@ a.hoover
 
 
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 650px) {
 
 	#headerLogo
 	{
@@ -686,6 +707,7 @@ a.hoover
 	#contactField span {
 	    font-size: 18px;
 	    line-height: 40px;
+	    padding-top: 55px;
 	}
 
 	.contactIcons {
@@ -721,9 +743,14 @@ a.hoover
 
 	.flexWrap
 	{
-	    display: flex;
-	    flex-wrap: wrap;
-	    justify-content: space-between;			
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+    justify-content: space-between;	
 	}
 
 	.flexWrap a
@@ -732,8 +759,10 @@ a.hoover
 	}
 
 	#facebookInclude {
-	    width: 50%;
+		    margin-top: 30px;
+	    width: 48%;
 	    float: left;
+	        padding-left: 10px;
 	}
 
 	#mainContent
@@ -768,20 +797,24 @@ a.hoover
     	margin-top: 30px;
 	}
 
+	#footer>div
+	{
+		width: 33%;
+	}
 
 	#footerKontakt
 	{
-		width: 33%;
+		width: 200px;
 	}
 
 	#footerPartner
 	{
-		width: 33%;
+
 	}
 
 	#footerNewsletter 
 	{
-		width: 33%;
+
 	}
 
 }
@@ -837,27 +870,33 @@ a.hoover
 
 	#textBox
 	{
-	    display: flex;
-	    flex-wrap: wrap;
-	    justify-content: space-between;	
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+    justify-content: space-between;
+
 	    padding: 40px 60px 0px 60px;		
 	}
 
 	#contactField {
 	    text-align: left;
 	    padding-top: 0px;
-	    width: 25%;
+	    width: 32%;
 	    order: 1;
 	}
 
 	#mainTeaser
 	{
-		width: 70%;
+		width: 66%;
 		order: 2;
 	}
 
 	#facebookInclude {
-	    width: 32%;
+	    width: 31%;
 	    padding-left: 20px;
 	    margin-top: 30px;
 	    float: left;
@@ -871,9 +910,14 @@ a.hoover
 
 	.flexWrapDesktop
 	{
-		display: flex;
-	    flex-wrap: wrap;
-	    justify-content: space-between;	
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+    justify-content: space-between;
 	}
 
 	.generalDistanceDesktop
@@ -902,9 +946,14 @@ a.hoover
 	{
 		float: left;
 		width: 66%;
-		display: flex;
-	    flex-wrap: wrap;
-	    justify-content: space-between;		
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+    justify-content: space-between;	
 	}
 
 	.startSeite a
@@ -952,9 +1001,14 @@ a.hoover
 	#kursAngebotSubmenu
 	{
 		padding: 0px 60px 80px 60px;	
-	    display: flex;
-	    flex-wrap: wrap;
-	    justify-content: space-between;		
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    justify-content: space-around;
 	}
 
 	#kursAngebotSubmenu .newsImage 
@@ -964,6 +1018,7 @@ a.hoover
 
 	#contentWrapper {
 	    padding: 0px 60px 0px 60px;
+
 	}
 
 	.flexWrap a {
@@ -1013,6 +1068,25 @@ a.hoover
 	}
 }
 
+@media only screen and (min-width: 1900px) {
+	
+	.newsImage 
+	{
+    	height: 350px;
+	}
+
+	.slick-slider 
+	{
+	    height: 900px;
+	}
+
+	#headerImage 
+	{
+	    height: 900px;
+	    overflow: hidden;
+	}
+
+}
 
 
 

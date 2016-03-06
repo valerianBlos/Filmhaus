@@ -27,9 +27,8 @@
 
 	  	<div id="headlineSingleCourse" class="notDesktop"><h2>LEHRGÄNGE</h2></div>
 		<div id="textBox">
-			<div id="mainTeaser">
+			<div id="mainTeaser" class="expander">
 				Gemeinsam mit unseren Partnern in Köln und München haben wir siebzehn Lehrgänge zur Weiterbildung Filmschaffender entwickelt und zertifiziert, die wir regelmäßig in Berlin-Babelsberg anbieten.<br> 
-				<br>
 				Sollten Sie sich für die Teilnahme an einem dieser Kurse interessieren, so nehmen Sie bitte Kontakt mit uns auf – so sammeln wir die Interessenten und informieren Sie, sobald ein Kursbeginn bevorsteht.		
 			</div>
 			<div id="contactField">
