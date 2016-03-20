@@ -45,7 +45,7 @@
       // a threshold of sorts for whether to initially hide/collapse part of the element's contents.
       // If after slicing the contents in two there are fewer words in the second part than
       // the value set by widow, we won't bother hiding/collapsing anything.
-      widow: 4,
+      widow: 10,
 
       // text displayed in a link instead of the hidden part of the element.
       // clicking this will expand/show the hidden/collapsed text

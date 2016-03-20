@@ -200,9 +200,18 @@
 .slick-dots li.slick-active button:before
 {
     font-size: 9px;
--webkit-text-fill-color: #E1061B;
-  -webkit-text-stroke-color: white;
-  -webkit-text-stroke-width: 1.50px; 
+    /*-webkit-text-fill-color: #E1061B;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1.50px; */
+
+    color: #E1061B;
+    font-size: 16px;
+
+    text-shadow:
+       -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+         1px 1px 0 #fff;
 }
 
 @media only screen and (min-width: 1100px) {
@@ -227,7 +236,7 @@
 
         .slick-dots li.slick-active button:before
         {
-            font-size: 19px;
-            -webkit-text-stroke-width: 2.50px; 
+            /*font-size: 19px;
+            -webkit-text-stroke-width: 2.50px;*/ 
         } 
     }

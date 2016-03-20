@@ -1,10 +1,7 @@
 <?php include ('header.php');?>
 	
 	<div id="headerBox">
-	    	<div id="headerImage">
-	    		<img src="images/header_lehrgaenge_image.jpg">
-			</div>
-
+	    	<div id="headerImage" style="background: url('images/header_lehrgaenge_image.jpg') no-repeat center; background-size: cover;" ></div>
 
 			<div id="headerTextBox" class="generalDistanceDesktop">
 				<div id="headerHeadlineArticle"><h4><a href="articleCollection.php">AKTUELLES</a></h4></div>

@@ -75,6 +75,34 @@ GENERAL CONTROLL AND OPTION VARIABLES
 
         }
 
+        function ratioImagebox()
+        {
+          //slick-slider 
+          //imageboxImageSize
+
+          //var ratio16to9 = ($( window ).width() / 16) * 9;
+          var ratio2to1 = ($( window ).width() / 2) * 1;
+          //console.log(ratio16to9);
+
+          $(".imageboxImageSize").css("height", ratio2to1);
+          $(".slick-slider").css("height", ratio2to1);
+          $("#headerImage").css("height", ratio2to1);
+        }
+
+
+        function ratioAllPictures()
+        {
+
+          $(".newsImage").each(function(){
+
+            var heightOfImage = ($(this).width() / 16) * 9;
+            $(this).css("height", heightOfImage);
+
+          });
+
+
+        }
+
 
 /*---------------------- 
 DOCUMENT READY FUNCTION
@@ -110,12 +138,18 @@ $( document ).ready(function() {
 
 	alignFacebookFrameSize();
 
+  ratioImagebox();
+
+  ratioAllPictures();
+
     //check if window resize
     $( window ).resize(function() 
     {
     	checkWindowSize();
-		alignFacebookFrameSize();
-		checkFooterPosition();
+		  alignFacebookFrameSize();
+		  checkFooterPosition();
+      ratioImagebox();
+      ratioAllPictures();
     });
 
 });

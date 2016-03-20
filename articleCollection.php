@@ -2,26 +2,27 @@
 	
 	<div id="teaserBox">
 		<div class="imagebox">
-	    	<div>
+	    	<div style="background: url('images/header_teaser_image.jpg') no-repeat center; background-size: cover;" class="imageboxImageSize">
 	    		<div class="headlineImagebox">
-	    			<h1>Fiction-Producer/in</h1>
+	    			<h1>1. DOK.lab</h1>
 	    			<span>Autorenwerkstatt mit Stanisław Mucha</span>
 	    		</div>
-	    		<img src="images/header_lehrgaenge_image.jpg">
 			</div>
 	    	<div>
-	    		<div class="headlineImagebox">
-	    			<h1>RTL-Serie "Deutschland 83"</h1>
-	    			<span>Autorenwerkstatt mit Stanisław Mucha</span>
+	    		<div style="background: url('images/header_lehrgaenge_image.jpg') no-repeat center; background-size: cover;" class="imageboxImageSize">
+		    		<div class="headlineImagebox">
+		    			<h1>2. DOK.lab</h1>
+		    			<span>Autorenwerkstatt mit Stanisław Mucha</span>
+		    		</div>
 	    		</div>	    		
-	    		<img src="images/header_teaser_image.jpg">
 	    	</div>
 	    	<div>
-	    		<div class="headlineImagebox">
-	    			<h1>Fiction-Producer/in</h1>
-	    			<span>Autorenwerkstatt mit Stanisław Mucha</span>
+	    		<div style="background: url('images/header_teaser_image.jpg') no-repeat center; background-size: cover;" class="imageboxImageSize">
+		    		<div class="headlineImagebox">
+		    			<h1>2. DOK.lab</h1>
+		    			<span>Autorenwerkstatt mit Stanisław Mucha</span>
+		    		</div>
 	    		</div>	    		
-	    		<img src="images/header_lehrgaenge_image.jpg">
 	    	</div>
 	  	</div>
 		<div id="textBox">

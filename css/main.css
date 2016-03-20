@@ -257,6 +257,10 @@ a.hoover
 	height: 36px;
 	background-color: #E1061B;
 	text-align: right;	
+
+	font-family: 'UniversLTPro-55Roman', Helvetica, Arial;
+ 	font-weight: normal;
+	font-style: normal;
 }
 
 .burgerMenu
@@ -369,6 +373,11 @@ a.hoover
 {
 	width: 100%;
     height: auto;
+}
+
+.imageboxImageSize
+{
+	height: 220px;
 }
 
 #headlineSingleCourse
@@ -592,6 +601,10 @@ a.hoover
 
     margin-top: 60px;	
 
+   	font-family: 'UniversLTPro-55Roman', Helvetica, Arial;
+ 	font-weight: normal;
+	font-style: normal;
+
 }
 
 #footerKontakt
@@ -699,7 +712,7 @@ a[href^=tel]{
 
 	.headlineImagebox
 	{
-    top: 355px;
+    	/*top: 280px;*/
 	}
 
 	.headlineImagebox span
@@ -710,8 +723,13 @@ a[href^=tel]{
 
 	.slick-slider
 	{
-		height: 440px;
+		height: 360px;
     	overflow: hidden;
+	}
+
+	.imageboxImageSize
+	{
+		height: 360px;
 	}
 
 	#mainTeaser
@@ -838,7 +856,7 @@ a[href^=tel]{
 @media only screen and (min-width: 1100px) {
 
 	#header {
-	    position: absolute;
+	    position: relative;
 	}
 
 	#headerLogo {
@@ -849,7 +867,9 @@ a[href^=tel]{
 	}
 
 	.headlineImagebox {
-	    top: 600px;
+	    /*top: 600px;*/
+	    /*top: 490px;*/
+	    bottom: 45px;
 	}
 
 	.headlineImagebox span 
@@ -875,8 +895,13 @@ a[href^=tel]{
 	}
 
 	.slick-slider {
-	    height: 730px;
+	    height: 619px;
 	    overflow: hidden;
+	}
+
+	.imageboxImageSize
+	{
+		height: 619px;
 	}
 
 	#headerImage {
@@ -1075,6 +1100,9 @@ a[href^=tel]{
 	{
 	    padding: 0px 60px 45px 60px;
 	    margin-top: 60px;
+	    font-family: 'UniversLTPro-45Light', Helvetica, Arial;
+	    font-weight: normal; 
+	    font-style: normal; 
 	}
 
 	.contactIcons li {
@@ -1093,13 +1121,23 @@ a[href^=tel]{
 
 	.slick-slider 
 	{
-	    height: 900px;
+	    height: 1069px;
+	}
+
+	.imageboxImageSize
+	{
+		height: 1069px;
 	}
 
 	#headerImage 
 	{
 	    height: 900px;
 	    overflow: hidden;
+	}
+
+	.headlineImagebox 
+	{
+    	/*top: 940px;*/
 	}
 
 }

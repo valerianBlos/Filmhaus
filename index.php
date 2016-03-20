@@ -11,26 +11,27 @@
 
 	<div id="teaserBox">
 		<div class="imagebox">
-	    	<div>
+	    	<div style="background: url('images/header_teaser_image.jpg') no-repeat center; background-size: cover;" class="imageboxImageSize">
 	    		<div class="headlineImagebox">
-	    			<h1>DOK.lab</h1>
+	    			<h1>1. DOK.lab</h1>
 	    			<span>Autorenwerkstatt mit Stanisław Mucha</span>
 	    		</div>
-	    		<img src="images/header_teaser_image.jpg">
 			</div>
 	    	<div>
-	    		<div class="headlineImagebox">
-	    			<h1>RTL-Serie "Deutschland 83"</h1>
-	    			<span>Autorenwerkstatt mit Stanisław Mucha</span>
+	    		<div style="background: url('images/header_lehrgaenge_image.jpg') no-repeat center; background-size: cover;" class="imageboxImageSize">
+		    		<div class="headlineImagebox">
+		    			<h1>2. DOK.lab</h1>
+		    			<span>Autorenwerkstatt mit Stanisław Mucha</span>
+		    		</div>
 	    		</div>	    		
-	    		<img src="images/header_lehrgaenge_image.jpg">
 	    	</div>
 	    	<div>
-	    		<div class="headlineImagebox">
-	    			<h1>DOK.lab</h1>
-	    			<span>Autorenwerkstatt mit Stanisław Mucha</span>
+	    		<div style="background: url('images/header_teaser_image.jpg') no-repeat center; background-size: cover;" class="imageboxImageSize">
+		    		<div class="headlineImagebox">
+		    			<h1>2. DOK.lab</h1>
+		    			<span>Autorenwerkstatt mit Stanisław Mucha</span>
+		    		</div>
 	    		</div>	    		
-	    		<img src="images/header_teaser_image.jpg">
 	    	</div>
 	  	</div>
 		<div id="textBox">
@@ -118,7 +119,7 @@
 			</a>
 		</div>
 		<div id="facebookInclude">
-			<div class="fb-page" data-href="https://www.facebook.com/filmhausbabelsberg" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/filmhausbabelsberg"><a href="https://www.facebook.com/filmhausbabelsberg">Filmhaus Babelsberg</a></blockquote></div></div>
+			<div class="fb-page" data-href="https://www.facebook.com/filmhausbabelsberg" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/filmhausbabelsberg"><a href="https://www.facebook.com/filmhausbabelsberg">Laden von Filmhaus Babelsberg</a></blockquote></div></div>
 		</div>
 		<div class="clear"></div>
 		<div id="linkToArchive"><a href="articleCollection.php">ARCHIV</a></div>

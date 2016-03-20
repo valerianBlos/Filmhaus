@@ -55,6 +55,15 @@ body
     line-height: 19px;
 } 
 
+@media only screen and (min-width: 1100px) {
+
+  body
+  {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+}
 
 
 

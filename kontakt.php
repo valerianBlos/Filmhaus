@@ -1,9 +1,7 @@
 <?php include ('header.php');?>
 	
 	<div id="headerBox">
-	    	<div id="headerImage">
-	    		<img src="images/header_lehrgaenge_image.jpg">
-			</div>
+	    	<div id="headerImage" style="background: url('images/header_lehrgaenge_image.jpg') no-repeat center; background-size: cover;" ></div>
 
 			<div id="headlineSingleCourse" class="notDesktop"><h2>KONTAKT</h2></div>
 
